@@ -1,4 +1,6 @@
-troll_function = "function lawls(  one, two,/*(lol*lol)*/three, four
+morphine = require '../index'
+
+troll_function = (new Function """return function lawls(  one, two,/*(lol*lol)*/three, four
 //kek
 , five  /***/
 // LULZ
@@ -6,4 +8,6 @@ troll_function = "function lawls(  one, two,/*(lol*lol)*/three, four
 //MAD BRO!?!
 */
 //
-) {console.log(one, two, three, four, five);}"
+) {console.log(one, two, three, four, five);}""")()
+
+console.log morphine.getArguments troll_function
