@@ -1,0 +1,38 @@
+{
+  "name": "morphine",
+  "version": "0.0.0",
+  "description": "Give Node.JS a dose of dependency injection.  Straight to the veins.  ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LukeGT/morphine.git"
+  },
+  "keywords": [
+    "dependency",
+    "injection",
+    "simple",
+    "powerful",
+    "easy",
+    "singleton",
+    "service",
+    "DI"
+  ],
+  "author": "Luke Tsekouras",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "c862943c9ad6fdc6dd188cb2d2bcc8e15242e014",
+  "bugs": {
+    "url": "https://github.com/LukeGT/morphine/issues"
+  }
+}
